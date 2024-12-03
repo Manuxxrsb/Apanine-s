@@ -14,7 +14,7 @@ Currently, two official plugins are available:
 # Tecnologias
 
 - Node js (Nesesario instalado)
-- React / Vite
+- React / Vite ( frame work )
 
 # Para Ejecutar:
 
