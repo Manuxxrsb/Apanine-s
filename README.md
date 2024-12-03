@@ -13,7 +13,7 @@ Currently, two official plugins are available:
 
 # Tecnologias
 
-- Node js
+- Node js (Nesesario instalado)
 - React / Vite
 
 # Para Ejecutar:
