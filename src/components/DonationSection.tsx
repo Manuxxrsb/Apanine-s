@@ -35,6 +35,9 @@ const DonationSection = () => {
             </div>
           ))}
         </div>
+        <button className="bg-rose-600 mt-4  text-white font-bold px-6 py-2 rounded-lg hover:bg-rose-700 transition-colors">
+          Dona Aqui
+        </button>
       </div>
     </section>
   );
