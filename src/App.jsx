@@ -22,7 +22,7 @@ function App() {
           <DonationSection />
           <TestimonialsSection />
           <NewsSection />
-          <EmpathySection />
+
           <CommunitySection />
         </main>
         <Pie />

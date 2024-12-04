@@ -3,23 +3,22 @@ import React from "react";
 const NewsSection = () => {
   const news = [
     {
-      image:
-        "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&q=80",
-      title: "Nuevo programa de apoyo familiar",
+      image: "rifa.png",
+      title: "¡Participa en la Rifa de la Fundación Apanines!",
       description:
-        "Lanzamos una nueva iniciativa para brindar más apoyo a las familias.",
+        "Estamos rifando MUCHOS premios y tú puedes ser uno de los ganadores. 🏆🎁 ¡No te pierdas esta oportunidad de apoyar una causa que marca la diferencia!   📅 Fecha del sorteo: 30 de noviembre de 2024",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&q=80",
-      title: "Evento benéfico anual",
-      description: "Únete a nuestro evento benéfico para recaudar fondos.",
+      image: "notice2.png",
+      title: "Patagonien Quartett en concierto",
+      description:
+        "Ayer compartimos un mágico momento junto a los amigos de @patagonienquartett que nos regalaron una selección de piezas musicales desde vals, tango, polka, cumbia, emocionandonos con Te recuerdo Amanda de Victor Jara y cerrando con un clásico de Led Zeppeling. Sin duda un regalo para el alma. ",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&q=80",
-      title: "Historias de éxito",
-      description: "Conoce las historias inspiradoras de nuestras familias.",
+      image: "notice3.png",
+      title: "última sesion del taller de deporte",
+      description:
+        "Estamos en la última sesion del taller de deporte del año, nuestros agradecimientos a @complejodeportivomelisoccer por entregarnos esta oportunidad que tan bien hace a nuestros niños, niñas y jóvenes. Agradecimientos especiales a la profe Natalia Arancibia por su dedicación y amor entregado en cada sesión.    Nos vemos el próximo año...",
     },
   ];
 

@@ -60,9 +60,19 @@ const Cabeza = () => {
           </nav>
 
           {/* Donate button */}
-          <button className="m-4 bg-rose-600 text-white px-6 py-2 rounded-full font-medium hover:bg-rose-700 transition-colors">
-            Donar
-          </button>
+          <a
+            target="_blank"
+            href="https://www.flow.cl/app/web/pagarBtnPago.php?token=0d47ixi&fbclid=IwZXh0bgNhZW0CMTAAAR1Clogr-Yyl2eRTsuISRwpitSvmBJ1NqlZ8pLCFp7jpFJPCrh2lCQFqCcs_aem_F3-4dtgYxfAyw6NcxovSdQ"
+          >
+            <button className="m-4 bg-rose-600 text-white px-6 py-2 rounded-full font-medium hover:bg-rose-700 transition-colors">
+              Donar
+            </button>
+          </a>
+          <a href="#">
+            <button className="m-4 bg-rose-600 text-white px-6 py-2 rounded-full font-medium hover:bg-rose-700 transition-colors">
+              Iniciar Sesion
+            </button>
+          </a>
         </div>
       </div>
     </header>

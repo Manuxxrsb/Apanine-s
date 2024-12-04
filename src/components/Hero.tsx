@@ -1,10 +1,7 @@
 import React from "react";
 
 const Hero = () => {
-  const images = [
-    "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&q=80",
-  ];
+  const images = ["front.png"];
 
   return (
     <section className="relative h-[600px] overflow-hidden">
@@ -14,7 +11,7 @@ const Hero = () => {
           alt="Personas ayudándose mutuamente"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-50" />
+        <div className="absolute inset-0 bg-black bg-opacity-30" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">

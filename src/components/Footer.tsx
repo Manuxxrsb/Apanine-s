@@ -6,10 +6,10 @@ const Pie = () => {
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
-          <div>
-            <Heart className="h-8 w-8 text-rose-600 mb-4" />
+          <div className="flex mt-4">
+            <Heart className="h-8 m-4 mt-1 w-8 text-rose-600 mb-4" />
             <p className="text-gray-400">
-              Brindando apoyo integral a familias en situación de discapacidad.
+              Brindando apoyo integral a nuestras familias.
             </p>
           </div>
           <div>
@@ -50,13 +50,21 @@ const Pie = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Síguenos</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a
+                href="https://www.facebook.com/Apanines"
+                target="_blank"
+                className="text-gray-400 hover:text-white"
+              >
                 <Facebook />
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
                 <Twitter />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a
+                href="https://www.instagram.com/apanines"
+                target="_blank"
+                className="text-gray-400 hover:text-white"
+              >
                 <Instagram />
               </a>
             </div>
