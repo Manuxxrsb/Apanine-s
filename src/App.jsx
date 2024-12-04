@@ -7,7 +7,6 @@ import WhySection from "./components/WhySection";
 import DonationSection from "./components/DonationSection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import NewsSection from "./components/NewsSection";
-import EmpathySection from "./components/EmpathySection";
 import CommunitySection from "./components/CommunitySection";
 
 function App() {
