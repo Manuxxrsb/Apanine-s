@@ -4,26 +4,24 @@ import { Facebook, Twitter, Instagram, Heart } from "lucide-react";
 const Cabeza = () => {
   return (
     <header className="bg-white shadow-sm">
-      <div className="flex justify-center w-full py-2 space-x-4 border-b">
+      <div className="flex justify-center w-full py-4 space-x-4 border-b">
         {/* Top bar with social icons */}
+        <div className="flex-shrink-0 ">
+          <img src="/logo.png" alt="Logo de la Fundación Apanines" className="h-16 w-auto" />
+        </div>
         <div className="flex py-4 space-x-2 border-b">
-          <a href="#" className="ml-5 pt-4 text-gray-600 hover:text-blue-600">
+          <a href="#" className="ml-5 pt-3 text-gray-600 hover:text-blue-600">
             <Facebook size={18} />
           </a>
-          <a href="#" className="ml-5 pt-4 text-gray-600 hover:text-blue-400">
+          <a href="#" className="ml-5 pt-3 text-gray-600 hover:text-blue-400">
             <Twitter size={18} />
           </a>
-          <a href="#" className="ml-5 pt-4 text-gray-600 hover:text-pink-600">
+          <a href="#" className="ml-5 pt-3 text-gray-600 hover:text-pink-600">
             <Instagram size={18} />
           </a>
         </div>
         {/* Main header */}
         <div className="flex items-center justify-between py-4">
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            <Heart className="h-8 w-9 m-2.5 text-rose-600" />
-          </div>
-
           {/* Navigation */}
           <nav className="hidden md:flex space-x-5 ">
             <a
