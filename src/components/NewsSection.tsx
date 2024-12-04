@@ -42,7 +42,7 @@ const NewsSection = () => {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
                 <p className="text-gray-600 mb-4">{item.description}</p>
-                <button className="text-rose-600 font-medium hover:text-rose-700">
+                <button className="text-custom-azul font-medium hover:text-custom-naranjo">
                   Leer más →
                 </button>
               </div>

@@ -39,7 +39,7 @@ const DonationSection = () => {
           target="_blank"
           href="https://www.flow.cl/app/web/pagarBtnPago.php?token=0d47ixi&fbclid=IwY2xjawG9YxhleHRuA2FlbQIxMAABHRmsDnV-WzT2cmA0D4qsN6PYWqlyvClTiiyfJidMntMhRBDt1kenbWX_mg_aem_IXHzzLR2h_vv4SfvC8ziwg"
         >
-          <button className="bg-rose-600 mt-12 text-white font-bold px-6 py-2 rounded-lg hover:bg-rose-700 transition-colors">
+          <button className="bg-custom-celeste mt-12 text-white font-bold px-6 py-2 rounded-lg hover:bg-rose-700 transition-colors">
             Dona Aqui
           </button>
         </a>

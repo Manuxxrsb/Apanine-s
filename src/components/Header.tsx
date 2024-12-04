@@ -61,12 +61,12 @@ const Cabeza = () => {
             target="_blank"
             href="https://www.flow.cl/app/web/pagarBtnPago.php?token=0d47ixi&fbclid=IwZXh0bgNhZW0CMTAAAR1Clogr-Yyl2eRTsuISRwpitSvmBJ1NqlZ8pLCFp7jpFJPCrh2lCQFqCcs_aem_F3-4dtgYxfAyw6NcxovSdQ"
           >
-            <button className="ml-5 bg-rose-600 text-white px-6 py-2 rounded-full font-medium hover:bg-rose-700 transition-colors">
+            <button className="ml-5 bg-custom-celeste text-white px-6 py-2 rounded-full font-medium hover:bg-rose-700 transition-colors">
               Donar
             </button>
           </a>
           <a href="#">
-            <button className="ml-5 bg-rose-600 text-white px-6 py-2 rounded-full font-medium hover:bg-rose-700 transition-colors">
+            <button className="ml-5 bg-custom-celeste text-white px-6 py-2 rounded-full font-medium hover:bg-rose-700 transition-colors">
               Iniciar Sesion
             </button>
           </a>
