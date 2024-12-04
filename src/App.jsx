@@ -1,13 +1,32 @@
 import React from "react";
-import "./App.css";
 import Cabeza from "./components/Header";
 import Pie from "./components/Footer";
+import FeatureCards from "./components/FeatureCards";
+import Hero from "./components/Hero";
+import WhySection from "./components/WhySection";
+import DonationSection from "./components/DonationSection";
+import TestimonialsSection from "./components/TestimonialsSection";
+import NewsSection from "./components/NewsSection";
+import EmpathySection from "./components/EmpathySection";
+import CommunitySection from "./components/CommunitySection";
 
 function App() {
   return (
     <>
-      <Cabeza />
-      <Pie />
+      <div className="min-h-screen bg-white">
+        <Cabeza />
+        <main>
+          <Hero />
+          <FeatureCards />
+          <WhySection />
+          <DonationSection />
+          <TestimonialsSection />
+          <NewsSection />
+          <EmpathySection />
+          <CommunitySection />
+        </main>
+        <Pie />
+      </div>
     </>
   );
 }
