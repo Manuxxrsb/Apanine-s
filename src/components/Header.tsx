@@ -26,31 +26,31 @@ const Cabeza = () => {
           <nav className="hidden md:flex space-x-5 ">
             <a
               href="#"
-              className="ml-5 text-gray-700 hover:text-rose-600 font-medium"
+              className="ml-5 text-gray-700 hover:text-custom-naranjo font-medium"
             >
               Nuestra causa
             </a>
             <a
               href="#"
-              className="ml-5 text-gray-700 hover:text-rose-600 font-medium"
+              className="ml-5 text-gray-700 hover:text-custom-naranjo font-medium"
             >
               Qué hacemos
             </a>
             <a
               href="#"
-              className="ml-5 text-gray-700 hover:text-rose-600 font-medium"
+              className="ml-5 text-gray-700 hover:text-custom-naranjo font-medium"
             >
               Cómo ayudar
             </a>
             <a
               href="#"
-              className="ml-5 text-gray-700 hover:text-rose-600 font-medium"
+              className="ml-5 text-gray-700 hover:text-custom-naranjo font-medium"
             >
               Noticias
             </a>
             <a
               href="#"
-              className="ml-5 text-gray-700 hover:text-rose-600 font-medium"
+              className="ml-5 text-gray-700 hover:text-custom-naranjo font-medium"
             >
               Galería
             </a>
@@ -61,12 +61,12 @@ const Cabeza = () => {
             target="_blank"
             href="https://www.flow.cl/app/web/pagarBtnPago.php?token=0d47ixi&fbclid=IwZXh0bgNhZW0CMTAAAR1Clogr-Yyl2eRTsuISRwpitSvmBJ1NqlZ8pLCFp7jpFJPCrh2lCQFqCcs_aem_F3-4dtgYxfAyw6NcxovSdQ"
           >
-            <button className="ml-5 bg-custom-celeste text-white px-6 py-2 rounded-full font-medium hover:bg-rose-700 transition-colors">
+            <button className="ml-5 bg-custom-celeste text-white px-6 py-2 rounded-full font-medium hover:bg-custom-naranjo transition-colors">
               Donar
             </button>
           </a>
           <a href="#">
-            <button className="ml-5 bg-custom-celeste text-white px-6 py-2 rounded-full font-medium hover:bg-rose-700 transition-colors">
+            <button className="ml-5 bg-custom-celeste text-white px-6 py-2 rounded-full font-medium hover:bg-custom-naranjo transition-colors">
               Iniciar Sesion
             </button>
           </a>
