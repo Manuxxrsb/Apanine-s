@@ -13,7 +13,7 @@ const FeatureCards = () => {
       icon: <Users className="h-8 w-8 text-rose-600" />,
       title: "Talleres grupales",
       description:
-        "Ofrecemos talleres grupales diseñados para fortalecer el vínculo entre cuidadores y niños, promoviendo el aprendizaje, el desarrollo y el bienestar de ambos.",
+        "Ofrecemos talleres grupales diseñados para fortalecer el vínculo entre cuidadores y niños, promoviendo el aprendizaje, desarrollo y bienestar de ambos.",
     },
     {
       icon: <House className="h-8 w-8 text-rose-600" />,
