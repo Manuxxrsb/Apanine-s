@@ -1,7 +1,7 @@
 import React from "react";
 
 const Hero = () => {
-  const images = ["front.png"];
+  const images = ["https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&q=80"];
 
   return (
     <section className="relative h-[600px] overflow-hidden">

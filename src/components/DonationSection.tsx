@@ -4,12 +4,12 @@ import { BookHeart, HandHeart, Heart } from "lucide-react";
 const DonationSection = () => {
   const causes = [
     {
-      icon: <BookHeart className="h-12 w-12 text-rose-600" />,
+      icon: <BookHeart className="h-12 w-12 text-blue-600" />,
       title: "Inclusión educativa",
       description: "Facilitamos el acceso a una educación de calidad.",
     },
     {
-      icon: <HandHeart className="h-12 w-12 text-rose-600" />,
+      icon: <HandHeart className="h-12 w-12 text-blue-600" />,
       title: "Ambiente Familiar",
       description: "Ofrecemos servicios especializados de rehabilitación.",
     },

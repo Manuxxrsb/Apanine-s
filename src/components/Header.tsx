@@ -7,7 +7,7 @@ const Cabeza = () => {
       <div className="flex justify-center w-full py-4 space-x-4 border-b">
         {/* Top bar with social icons */}
         <div className="flex-shrink-0 ">
-          <img src="/logo.png" alt="Logo de la Fundación Apanines" className="h-16 w-auto" />
+          <img src="/logoapanines.svg" alt="Logo de la Fundación Apanines" className="h-16 w-auto" />
         </div>
         <div className="flex py-4 space-x-2 border-b">
           <a href="#" className="ml-5 pt-3 text-gray-600 hover:text-blue-600">
@@ -65,11 +65,7 @@ const Cabeza = () => {
               Donar
             </button>
           </a>
-          <a href="#">
-            <button className="ml-5 bg-custom-celeste text-white px-6 py-2 rounded-full font-medium hover:bg-custom-naranjo transition-colors">
-              Iniciar Sesion
-            </button>
-          </a>
+          
         </div>
       </div>
     </header>

@@ -7,7 +7,7 @@ const Pie = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="flex mt-4">
-            <Heart className="h-8 m-4 mt-1 w-8 text-rose-600 mb-4" />
+            <Heart className="h-8 m-4 mt-1 w-8 text-blue-600 mb-4" />
             <p className="text-gray-400">
               Brindando apoyo integral a nuestras familias.
             </p>

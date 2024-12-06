@@ -4,19 +4,19 @@ import { Users, User, House } from "lucide-react";
 const FeatureCards = () => {
   const features = [
     {
-      icon: <User className="h-8 w-8 text-rose-600" />,
+      icon: <User className="h-8 w-8 text-blue-600" />,
       title: "Terapias Individuales",
       description:
         "Cada persona es única, por eso nuestros tratamientos son personalizados. Contamos con un equipo de profesionales en fonoaudiología, terapia ocupacional y kinesiología que te acompañarán en todo momento, diseñando un plan de rehabilitación adaptado a tus necesidades específicas.",
     },
     {
-      icon: <Users className="h-8 w-8 text-rose-600" />,
+      icon: <Users className="h-8 w-8 text-blue-600" />,
       title: "Talleres grupales",
       description:
         "Ofrecemos talleres grupales diseñados para fortalecer el vínculo entre cuidadores y niños, promoviendo el aprendizaje, desarrollo y bienestar de ambos.",
     },
     {
-      icon: <House className="h-8 w-8 text-rose-600" />,
+      icon: <House className="h-8 w-8 text-blue-600" />,
       title: "Proyectos futuros",
       description:
         "Construyamos juntos el futuro de nuestra comunidad! Te invitamos a participar en la construcción de un nuevo centro.",
